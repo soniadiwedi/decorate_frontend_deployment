@@ -1,0 +1,36 @@
+
+
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px
+  }
+  
+  .slick-slider {
+    border: 1px solid #ddd; 
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .slick-prev {
+    left: 10px;
+   
+  }
+  
+  .slick-next {
+    right: 25px;
+   
+    
+  }
+  
